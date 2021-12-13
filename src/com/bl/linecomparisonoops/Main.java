@@ -7,12 +7,12 @@ public class Main {
 		p1.y = 3;
 		Point p2 = new Point();
 		p2.x = 3;
-		p2.y = 2;
+		p2.y = 9;
 		Point p3 = new Point();
 		p3.x = 5;
 		p3.y = 3;
 		Point p4 = new Point();
-		p4.x = 3;
+		p4.x = 0;
 		p4.y = 2;
 
 		Line lineOne = new Line();
@@ -26,9 +26,6 @@ public class Main {
 		Double lengthTwo = lineTwo.getLength(p3, p4);
 
 		Line line = new Line();
-		if (line.equals(lengthOne, lengthTwo) == true)
-			System.out.println("Two lines are Equal");
-		else
-			System.out.println("Two lengths are not equal");
+		line.compare(lengthOne, lengthTwo);
 	}
 }

@@ -7,10 +7,13 @@ public class Line {
 		return Math.sqrt((r.x - s.x) * (r.x - s.x) + (r.y - s.y) * (r.y - s.y));
 	}
 
-	public boolean equals(Double x, Double y) {
-		if (x.equals(y))
-			return true;
-		else
-			return false;
+	public void compare(Double x, Double y) {
+		if (x.compareTo(y) == 0) {
+			System.out.println("LengthOne and LengthTwo are Equal");
+			;
+		} else if (x.compareTo(y) < 0) {
+			System.out.println("LengthTwo is greater than LengthOne");
+		} else
+			System.out.println("LengthOne is greater than lengthTwo");
 	}
 }
