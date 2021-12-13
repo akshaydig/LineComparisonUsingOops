@@ -7,12 +7,12 @@ public class Main {
 		p1.y = 3;
 		Point p2 = new Point();
 		p2.x = 3;
-		p2.y = 9;
+		p2.y = 2;
 		Point p3 = new Point();
 		p3.x = 5;
 		p3.y = 3;
 		Point p4 = new Point();
-		p4.x = 0;
+		p4.x = 3;
 		p4.y = 2;
 
 		Line lineOne = new Line();

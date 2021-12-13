@@ -8,7 +8,7 @@ public class Line {
 	}
 
 	public void compare(Double x, Double y) {
-		if (x.compareTo(y) == 0) {
+		if (x.equals(y)) {
 			System.out.println("LengthOne and LengthTwo are Equal");
 			;
 		} else if (x.compareTo(y) < 0) {
